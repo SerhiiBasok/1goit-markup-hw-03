@@ -73,6 +73,7 @@ img {
 .header-main {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .nav-item {
@@ -155,10 +156,18 @@ img {
   background-color: #404bbf;
 }
 
-.is-hidden {
-  visibility: hidden;
-  pointer-events: none;
+.visually-hidden {
   position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .advantages {
   padding: 120px 0;
@@ -247,7 +256,7 @@ img {
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 
   font-size: 36px;
   font-weight: 700;
