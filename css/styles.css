@@ -71,7 +71,7 @@ img {
 
 .header-main {
   display: flex;
-  gap: 0 40px;
+  gap: 40px;
   padding: 24px 0;
 }
 
@@ -81,6 +81,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .nav-item:hover {
   color: #404bbf;
@@ -109,7 +110,7 @@ img {
 }
 .adress-list {
   display: flex;
-  gap: 0 40px;
+  gap: 40px;
   padding: 24px 0;
 }
 /*     <!-- Main Content --> */
